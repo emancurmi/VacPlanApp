@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Vacation Planner</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="js-vacation-list-form">
+        <label for="state-entry">Select a State</label>
+        <input type="text" class="js-state-entry" name="state-entry" placeholder="e.g., NY, NJ, CT">
+        <label for="results-no-entry">Search Results</label>
+        <select name="results-no-entry" class="js-results-no-entry">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10" selected>10</option>
+        </select>
+        <button id="btnsubmit" type="submit">Search</button>
+    </form>
+    <section class="vacation-list js-vacation-list">
+    </section>
+    <script src="https://code.jquery.com/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

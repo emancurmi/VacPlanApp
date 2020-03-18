@@ -1,0 +1,47 @@
+﻿* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+button, input[type="text"], select {
+    padding: 5px;
+}
+
+    button:hover {
+        cursor: pointer;
+    }
+
+.hidden {
+    display: none;
+}
+
+#results-list-item {
+    width: 250px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.results-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+    .results-list > li {
+        margin-bottom: 20px;
+        border: 1px solid grey;
+        padding: 20px;
+    }
+
+.results-item {
+    display: block;
+    color: grey;
+    font-style: italic;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
